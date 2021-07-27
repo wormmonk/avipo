@@ -1,0 +1,5 @@
+while loop
+find / -xdev -type f -size +50M
+echo "Rogue files detected"
+mail -s "Please check these files " -a /tmp/rogue.out alarm@animapoint.net
+sleep 15m

