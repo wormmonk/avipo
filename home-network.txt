@@ -1,0 +1,9 @@
+I have a test server consist of an Intel NUC mini pc. It's running Ubuntu 20.04.2 LTS Server/minimal headless install.
+It's serving: 
+
+1. an nginx webserver, to host a basic index page through virtual path on the server.
+2. samba share serving the local network at home
+3. cups (print server) for a local printer
+4. freedns updater script, so that the server can be accessed from anywhere through the internet
+5. a pi-hole DNS server that provide network-wide ad blocking to the home network
+6. a fail2ban setup to protect the webserver and the server itself
